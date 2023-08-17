@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Movie {
+public class MovieController {
 
     @FXML
     public Button bookButton;
