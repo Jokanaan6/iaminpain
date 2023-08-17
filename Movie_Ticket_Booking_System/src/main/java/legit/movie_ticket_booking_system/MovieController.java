@@ -102,7 +102,7 @@ public class MovieController {
                     Parent root;
                     try {
                         root = loader.load();
-                        Ticket ticketController = loader.getController();
+                        TicketController ticketController = loader.getController();
                         ticketController.setData(selectedBooking);
                         Stage stage = new Stage();
                         stage.setScene(new Scene(root));

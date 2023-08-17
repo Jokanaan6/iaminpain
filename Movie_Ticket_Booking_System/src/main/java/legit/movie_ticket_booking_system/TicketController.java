@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Ticket {
+public class TicketController {
 
     @FXML
     private Button Another;

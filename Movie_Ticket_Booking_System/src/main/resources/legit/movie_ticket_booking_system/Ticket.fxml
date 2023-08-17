@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="420.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="legit.movie_ticket_booking_system.Ticket">
+<AnchorPane prefHeight="420.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="legit.movie_ticket_booking_system.TicketController">
    <Label layoutX="120.0" layoutY="22.0" prefHeight="43.0" prefWidth="110.0" text="Ticket">
       <font>
          <Font name="Times New Roman Bold" size="38.0" />
