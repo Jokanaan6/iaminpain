@@ -47,7 +47,7 @@ public class RegistrationController {
             alert.showAndWait();
         } else {
             Main.registerUser(username, password);
-            Main.setCurrentUserAccount(new UserAccount(username, password)); // Save user account
+            Main.setCurrentUserAccount(new UserAccount(username, password));
             Main.changeScene("Login.fxml", 350, 450);
         }
     }

@@ -48,7 +48,7 @@ public class MovieController {
         movieChoiceBox.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             if (newValue != null) {
                 int moviePrice = calculateMoviePrice(newValue);
-                price.setText("Price: " + moviePrice);
+                price.setText(moviePrice + " Php");
             }
         });
     }

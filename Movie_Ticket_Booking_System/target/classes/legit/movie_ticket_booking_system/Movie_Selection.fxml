@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="legit.movie_ticket_booking_system.Movie">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="legit.movie_ticket_booking_system.MovieController">
    <AnchorPane layoutX="2.0" prefHeight="529.0" prefWidth="544.0">
       <Label layoutX="96.0" layoutY="32.0" text="Movie Ticket Booking System">
          <font>
@@ -70,9 +70,7 @@
       <Button fx:id="bookButton" layoutX="202.0" layoutY="477.0" mnemonicParsing="false" onAction="#onBookButtonClicked" prefHeight="39.0" prefWidth="144.0" text="Book Ticket">
          <graphic>
             <ImageView fitHeight="23.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../OtherImg/ticket.png" />
-               </image>
+               <Image url="@../../OtherImg/ticket.png" />
             </ImageView>
          </graphic>
          <font>
@@ -81,27 +79,23 @@
       <Button fx:id="logoutButton" mnemonicParsing="false" onAction="#Logout" prefHeight="36.0" prefWidth="97.0" text="Logout">
          <graphic>
             <ImageView fitHeight="42.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../OtherImg/logout.png" />
-               </image>
+               <Image url="@../../OtherImg/logout.png" />
             </ImageView>
          </graphic>
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
       <HBox layoutX="239.0" layoutY="459.0" prefHeight="18.0" prefWidth="109.0">
-         <children>
-            <Label fx:id="price">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-            <Label text=" Php">
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Label>
-         </children>
+         <Label text="Price: ">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font>
+         </Label>
+         <Label fx:id="price">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font>
+         </Label>
       </HBox>
    </AnchorPane>
 </Pane>
